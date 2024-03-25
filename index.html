@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acessibilidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="h-f">
+    <h1>Transcrição de áudio</h1>
+    <nav class="right-align" aria-label="Menu de navegação">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="https://www.pertodigital.com.br/?gad_source=1&gclid=CjwKCAjwkuqvBhAQEiwA65XxQJ6BUhNsNa1WNZ2e6uu5jEDrjp-Kz1Y3IIjtNN4RPETa_qScBiXuwxoCbQEQAvD_BwE">Sobre</a></li>
+        <li><a href="https://pertodigital.tawk.help/">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+
+    <div id="contrastOptions" aria-label="Opções de contraste">
+      <button id="blackAndWhite" aria-label="Preto e Branco">Preto e Branco</button>
+      <button id="highContrast" aria-label="Alto Contraste">Padrão</button>
+      <button id="blueContrast" aria-label="Azul">Azul</button>
+    </div>
+
+    <h2>Acessibilidade na Transcrição de áudio</h2>
+    <br>
+    <article>
+      <div class="container">
+        <button onclick="toggleVisibility('section1')">Mostrar/Ocultar</button>
+        <div id="section1" class="hidden">
+          <h2>Importância da Transcrição de áudio na Acessibilidade</h2>
+          <p>A transcrição de áudio desempenha um papel crucial na promoção da acessibilidade para pessoas com deficiência auditiva,</p>
+          <p>bem como para indivíduos com dificuldades de audição. Aqui estão algumas razões pelas quais a transcrição de áudio é importante para a acessibilidade:</p>
+          <p>Acesso à Informação; Compreensão Integral; Conformidade Legal e Normativa; Melhoria da Indexação e Acessibilidade Online.</p>
+          <p>- World Wide Web Consortium (W3C) -</p>
+          
+          <img src="w3c.png">
+        </div>
+      </div>
+
+      <br>
+      <h5>--------------------------------------------------------------------------------------------------------------------------------------------</h5>
+      <div class="container">
+        <button onclick="toggleVisibility('section2')">Mostrar/Ocultar</button>
+        <div id="section2" class="hidden">
+          <h2>Benefícios da Transcrição em áudio</h2>
+          <p>A transcrição de áudio oferece uma série de benefícios que vão além da acessibilidade para pessoas com deficiência auditiva.</p>
+          <p>Aqui estão alguns dos principais benefícios:</p>
+          <p>Facilidade de Referência; Facilita a Tradução e Localização; Melhoria da Compreensão;</p>
+          <p>Economia de Tempo; Aprimoramento da Pesquisa e Indexação.</p>
+          <img src="escutar.png">
+      </div>
+
+      <br>
+      <h5>--------------------------------------------------------------------------------------------------------------------------------------------</h5>
+      
+      <div class="container">
+        <button onclick="toggleVisibility('section3')">Mostrar/Ocultar</button>
+        <div id="section3" class="hidden">
+          <h2>Softwares de Transcrição que utilizam IA</h2>
+          <p>Google Cloud Speech-to-Text; IBM Watson Speech to Text; Microsoft Azure Speech Service;</p>
+          <p>Otter.ai; Speechmatics; Trint</p>
+          <img src="robo.png">
+        </div>
+      </div>
+      <br>
+      <button id="startButton">Iniciar Transcrição</button>
+      <div id="transcription"></div>
+      <br>
+      <h5>--------------------------------------------------------------------------------------------------------------------------------------------</h5>
+
+  </main>
+  
+  <footer class="h-f">
+    <p>© 2024 – Transcrição de áudio na Acessibilidade - Desenvolvido por Gustavo Vieira</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

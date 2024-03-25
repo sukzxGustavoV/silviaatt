@@ -1,0 +1,134 @@
+body {
+  background-color: #fdf3ee;
+  color: #000000;  
+  font-family: Georgia, Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #transcription { 
+    white-space: pre-wrap;
+  }
+  
+  header {
+    background-color: #7f5539;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h5{
+    color: #7b7b7bb0;
+  }
+
+  article{
+    text-align: center;
+  }
+
+  img{
+    width: 250px;
+    height: 150px;
+  }
+
+  button {
+    border-radius: 10px;
+    border: 2px solid black; /* Adicionando uma borda de 2px sólida preta */
+    background-color: #ffffff;
+    transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
+  }
+
+  #startButton{
+    color: #9d0000;
+    background-color: #ff00001b;
+  }
+  
+  button:hover {
+    background-color: #1a1c1f;
+    color: #ffffff; /* Alterando a cor do texto quando o botão é hover */
+  }
+
+  .black-and-white {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .black-and-white header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }  
+
+  .black-and-white footer {
+    background-color: #3e3e3e;
+    color: #ffffff;
+  }
+  
+  .blue-contrast {
+    background-color: #cee3fa;
+    color: #000000;
+  }
+
+  .blue-contrast .h-f {
+    background-color: #101575;
+    color: #fff;
+  }
+
+  
+    /* Estilos de contraste */
+    .high-contrast {
+      background-color: #fdf3ee;
+      color: #000000;
+      border-radius: 10px;
+    }
+
+    .high-contrast .h-f{
+      background-color: #7f5539;
+      color: #fff;
+    }
+    
+  
+  /* Estilos para alinhar a navegação à direita */
+  .right-align {
+    margin-left: auto;
+  }
+
+  footer {
+    background-color: #ddb892;
+    color: #000000;
+    padding: 6px 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .container {
+    margin-bottom: 20px;
+  }
+  
