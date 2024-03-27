@@ -20,6 +20,7 @@
   
   <main>
 
+    
     <div id="contrastOptions" aria-label="Opções de contraste">
       <button id="blackAndWhite" aria-label="Preto e Branco">Preto e Branco</button>
       <button id="highContrast" aria-label="Alto Contraste">Padrão</button>
@@ -28,11 +29,11 @@
 
     <h2>Acessibilidade na Transcrição de áudio</h2>
     <br>
-    <article>
+
+    <article class="td">
       <div class="container">
-        <button onclick="toggleVisibility('section1')">Mostrar/Ocultar</button>
-        <div id="section1" class="hidden">
-          <h2>Importância da Transcrição de áudio na Acessibilidade</h2>
+        <button onclick="toggleVisibility('section1')"><h3>Importância da Transcrição de áudio na Acessibilidade</h3></button>
+        <div id="section1" class="hidden">        
           <p>A transcrição de áudio desempenha um papel crucial na promoção da acessibilidade para pessoas com deficiência auditiva,</p>
           <p>bem como para indivíduos com dificuldades de audição. Aqui estão algumas razões pelas quais a transcrição de áudio é importante para a acessibilidade:</p>
           <p>Acesso à Informação; Compreensão Integral; Conformidade Legal e Normativa; Melhoria da Indexação e Acessibilidade Online.</p>
@@ -43,36 +44,32 @@
       </div>
 
       <br>
-      <h5>--------------------------------------------------------------------------------------------------------------------------------------------</h5>
       <div class="container">
-        <button onclick="toggleVisibility('section2')">Mostrar/Ocultar</button>
+        <button onclick="toggleVisibility('section2')"><h3>Benefícios da Transcrição em áudio</h3></button>
         <div id="section2" class="hidden">
-          <h2>Benefícios da Transcrição em áudio</h2>
           <p>A transcrição de áudio oferece uma série de benefícios que vão além da acessibilidade para pessoas com deficiência auditiva.</p>
           <p>Aqui estão alguns dos principais benefícios:</p>
           <p>Facilidade de Referência; Facilita a Tradução e Localização; Melhoria da Compreensão;</p>
           <p>Economia de Tempo; Aprimoramento da Pesquisa e Indexação.</p>
           <img src="escutar.png">
       </div>
-
       <br>
-      <h5>--------------------------------------------------------------------------------------------------------------------------------------------</h5>
-      
+      </div>  
       <div class="container">
-        <button onclick="toggleVisibility('section3')">Mostrar/Ocultar</button>
+        <button onclick="toggleVisibility('section3')"><h3>Softwares de Transcrição que utilizam IA</h3></button>
         <div id="section3" class="hidden">
-          <h2>Softwares de Transcrição que utilizam IA</h2>
           <p>Google Cloud Speech-to-Text; IBM Watson Speech to Text; Microsoft Azure Speech Service;</p>
           <p>Otter.ai; Speechmatics; Trint</p>
           <img src="robo.png">
         </div>
       </div>
       <br>
-      <button id="startButton">Iniciar Transcrição</button>
-      <div id="transcription"></div>
-      <br>
-      <h5>--------------------------------------------------------------------------------------------------------------------------------------------</h5>
+     
 
+    </article>
+    <button id="startButton">Iniciar Transcrição</button>
+    <div id="transcription"></div>
+    <br>
   </main>
   
   <footer class="h-f">
