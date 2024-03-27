@@ -59,15 +59,21 @@ body {
   }
 
   button {
+    
+    height: 50px;
     border-radius: 10px;
     border: 2px solid black; /* Adicionando uma borda de 2px sólida preta */
     background-color: #ffffff;
     transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
   }
 
+  button.container{
+    border: none;
+  }
+
   #startButton{
-    color: #9d0000;
-    background-color: #ff00001b;
+    color: #ffffff;
+    background-color: #0000009b;
   }
   
   button:hover {
@@ -130,5 +136,14 @@ body {
 
   .container {
     margin-bottom: 20px;
+    border: #1f1f1f solid 0.2em;
+    border-radius: 25px;
+    width: 500px;
+    background-color: #eeeeee;
   }
   
+  .td{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
